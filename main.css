@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://db.onlinewebfonts.com/c/0d8c38be44227716fe808874591a05b0?family=BourbonW00-Rough');
+@font-face {font-family: "BourbonW00-Rough"; src: url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.eot"); src: url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.woff") format("woff"), url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0d8c38be44227716fe808874591a05b0.svg#BourbonW00-Rough") format("svg"); }
+@font-face {
+    font-family: newsheadline;
+    src: url(assets/fonts/built\ titling\ sb.ttf);
+  }
+
+
+.cornerimage {
+    background-image: url(NoPath_-_Copy.png);
+}
+
+.newspaper-title {
+    font-family: ChomskyRegular;
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .newspaper-title {
+        font-size: 120px;
+    }
+    .headline-main {
+        font-size: 150px;
+        letter-spacing: 14px;
+    }
+    .article-headline1 {
+        font-size: 50px;
+
+    }
+    .article-headline2 {
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .newspaper-title {
+        font-size: 70px;
+    }
+    .article-headline1 {
+        font-size: 30px;
+
+    }
+    .article-headline2 {
+        font-size: 20px;
+
+    }
+    .headline-main {
+        font-size: 100px;
+        letter-spacing: 14px;
+    }
+}
+
+
+ .nav {
+    font-family: 'Antic Slab', serif;
+    font-size: 20px;
+ }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+ .headline-main {
+    font-family: BourbonW00-Rough;
+    margin-top: 0px;
+ }
+
+
+.article-headline1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.article-content {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.article-headline2 {
+    font-family: newsheadline;
+    letter-spacing: 2px;
+    text-align: justify;
+}
