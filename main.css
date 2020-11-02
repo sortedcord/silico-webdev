@@ -25,7 +25,10 @@
     }
     .headline-main {
         font-size: 150px;
-        letter-spacing: 14px;
+        
+    }
+    .lspace {
+        letter-spacing: 20px;
     }
     .article-headline1 {
         font-size: 50px;
@@ -98,8 +101,25 @@
     border: none;
     outline: none;
     background-color: white;
-    color: white;
     cursor: pointer;
     padding: 5px;
     border-radius: 4px;
   }
+
+.active {
+    font-weight: bolder;
+}
+.form-group {
+    margin: 10px;
+    border: gray;
+    border-style: dashed;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+

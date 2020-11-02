@@ -6,10 +6,10 @@
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link href="main.css" rel="stylesheet">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/chomsky" type="text/css"/>
-	<title>Website</title>
+	<title>Budapest Times | SILICO DESIGN | BIRLA VIDYA NIKETAN</title>
 </head>
 <body>
-	<button onclick="darkmode()" id="myBtn" title="Go to top"><img src="assets/dark_lantern.png" height="32px" width="32px"/></button>
+	<button onclick="darkmode()" id="myBtn" title="Blow out the lights"><img src="assets/dark_lantern.png" height="32px" width="32px"/></button>
 	<div class="vignette">
 
 		<header class="m-2 mt-4">
@@ -17,13 +17,14 @@
 			<div class="flex flex-row w-full">
 				<div class="cornerimage h-40 w-40 bg-gray-200 border self-end m-2"></div>
 				<div class="flex flex-col w-full">
-					<h1 class="newspaper-title mx-auto text-center leading-none self-end">Newspaper Style</h1>
+					<h1 class="newspaper-title mx-auto text-center leading-none self-end">
+						Budapest Times</h1>
 					<hr class="" style="height:2px;border-width:0;color:gray;background-color:gray">
 					<nav class="w-full mx-auto flex self-end">
 						<div class="nav mx-auto lg:w-2/5 sm:w-full flex flex-row">
-							<a href="#"class="flex-grow px-4 py-2">Home</a>
+							<a href="#"class="flex-grow px-4 py-2 active">Home</a>
 							<a href="#" class="flex-grow px-4 py-2" id="date" onclick="darkmode()">Date</a>
-							<a href="#" class="flex-grow px-4 py-2">Enroll</a>
+							<a href="enroll.html" class="flex-grow px-4 py-2">Enroll</a>
 						</div>
 					</nav>
 				</div>
@@ -33,14 +34,14 @@
 		</header>
 		<!-- Main Column-->
 		<div class="container mx-auto" >
-			<h1 class="headline-main text-center">NAZIS TAKE ON USSR</h1>
+			<h1 class="headline-main text-center lspace">NAZIS TAKE ON USSR</h1>
 			<!-- 1st Row-->
-			<div class="flex lg:flex-row sm:flex-col md:flex-col">
+			<div class="flex flex-col lg:flex-row">
 				<!-- Main Article-->
 				<div class="flex flex-row">
 						<div class="flex flex-col" style="margin-right: 10px;">
 							<h1 class="article-headline1">Nazi Troops Ready From Rumania To Fight Finaland For Fight</h1>
-							<div class="flex lg:flex-row sm:flex-col">
+							<div class="flex flex-col lg:flex-row">
 								<p class="article-content" style="margin:10px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
 									printer took a galley of type and scrambled it to make a type specimen book. It has survived 
@@ -69,8 +70,10 @@
 			</div>
 			<div style="margin-top: 15px;">
 				
-				<img src="big-image.png" style="margin-top: 15px;" />
+				<img src="assets/poster.png" style="margin-top: 15px;" />
 			</div>
+			<br>
+			<br>
 		</div>
 	</div>
 
