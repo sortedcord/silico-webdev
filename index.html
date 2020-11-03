@@ -28,7 +28,7 @@
 						</div>
 					</nav>
 				</div>
-				<div class="h-40 w-40 bg-gray-200 border self-end m-2"><img src="join the army.PNG" /></div>
+				<div class="h-40 w-40 bg-gray-200 border self-end m-2"><a href="enroll.html"><img src="join the army.PNG"/></a></div>
 			</div>
 			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 		</header>
@@ -38,33 +38,41 @@
 			<!-- 1st Row-->
 			<div class="flex flex-col lg:flex-row">
 				<!-- Main Article-->
-				<div class="flex flex-row">
+				<div class="flex flex-row lg:w-2/3">
 						<div class="flex flex-col" style="margin-right: 10px;">
 							<h1 class="article-headline1">Nazi Troops Ready From Rumania To Fight Finaland For Fight</h1>
 							<div class="flex flex-col lg:flex-row">
-								<p class="article-content" style="margin:10px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-									printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-									not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-									unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem 
-									Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-									versions of Lorem Ipsum.</p>
-								<img src="assets/hitler1.jpg" width=422px height= 529px />
+								<p class="article-content" style="margin:10px">Soviet Union is ready to support all practical measures on the part ... The United Nations are 
+									fighting to make a world in which tyranny. Nazis and the Japs are in military control-free to follow their barbarings and shall 
+									be finaland not subject to review of istan, Estonia, Latvia, Persia, Poland, Rumania, Turkey. Two strong allies with the pact of steel- 
+									russia and Nazi Germany, were unbeatable together, but now, Hitler in sudden and an impulsive decision, has now broken the pact. Which was
+									predictable.
+									<br>
+									Finaland's confirmation of air victories did not work much better than
+									of any other country. In the Winter War 1939-1940 war Finland claim to
+									destroy at least 684 aircraft, and some of the Finish patriots
+									stretching this number to a thousand. However, Soviet VVS claim to loose
+									only 261 aircraft total. What we see, is a classic 3-4:1 over claim
+									which hammered almost all Air Forces. 
+								</p>
+								<img src="assets/hitler1.jpg" style="margin: 10px;" width=422px height= 529px />
 								
 							</div>
 							<hr style="margin-top: 15px;">
 						</div>
 					</div>
-				<div class="flex">
+				<div class="flex w-full lg:w-1/3">
 					<div class="flex flex-col" style="margin: 10px;">
-						<h1 class="article-headline2">Camp Fund Nears Halfway Mark</h1>
-						<p class="article-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-							<hr style="margin-top: 15px; margin-bottom: 30px;">
-							<video src="assets/samplw.mp4" autoplay loop width="100%"></video>
+						<h1 class="article-headline2 text-center">"Flames Swept Through"</h1>
+						<p class="article-content">Workers in the building were evacuated and had time to get out without danger, displaying Soviet Organisation and welfare.
+							About 10,000 to 11,000 pounds worth of tyres were stores in the lower section of the building. Thousands of pounds worth of electric washers and 
+							other household ekectrical equipments are known to have been in the building.
+						</p>
+							<hr style="margin-top: 30px; margin-bottom: 30px;">
+							<video src="assets/propvid.mp4" autoplay muted loop width="100%"></video>
+							<div onclick="redirectEnroll()" class="border-dashed border-4 border-gray-600" style="margin-top: 10px; font-family: newsheadline; font-size: 25px; background-color: gainsboro;">
+								<h1 class="text-center" style="color:  #1a0000;">Join The Army</h1>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -109,6 +117,10 @@
 	function topFunction() {
 	  document.body.scrollTop = 0;
 	  document.documentElement.scrollTop = 0;
+	}
+
+	function redirectEnroll() {
+		window.location.replace("enroll.html");
 	}
 	</script>
 </body>
